@@ -4,9 +4,13 @@ WebSite for a Restaurant
 Partners:
 
 Leonardo Slovinski Oliveira (Scrum Master)
+
 Eduardo Pritsch Kasper (Product Owner)
+
 Fabricio Gonzalez Bez Fontana (Dev)
+
 Wilian Bordon (Dev)
+
 Henrique Gonçalves de Oliveira Ferreira (Dev)
 
 Functional Requirements: 
