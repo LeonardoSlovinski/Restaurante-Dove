@@ -1,31 +1,26 @@
 # Restaurante Dove
+
 WebSite for a Restaurant
 
-Partners:
+## Partners
 
-Leonardo Slovinski Oliveira (Scrum Master)
+- **Eduardo Pritsch Kasper** (Product Owner)
+- **Fabricio Gonzalez Bez Fontana** (Dev)
+- **Wilian Bordon** (Dev)
+- **Henrique Gonçalves de Oliveira Ferreira** (Dev)
 
-Eduardo Pritsch Kasper (Product Owner)
+## Functional Requirements
 
-Fabricio Gonzalez Bez Fontana (Dev)
+### RF01: Exibir Tela Inicial
+- O sistema deve permitir que o usuário visualize a página inicial com o menu do dia e os ícones que levam o cliente para as redes sociais, história e a localização do local.
 
-Wilian Bordon (Dev)
+## Non-Functional Requirements
 
-Henrique Gonçalves de Oliveira Ferreira (Dev)
+### RNF1: Compatibilidade de Navegadores (Interoperabilidade)
+- O sistema deve permitir a utilização nos navegadores Chrome e Opera.
 
-Functional Requirements: 
+### RNF2: Disponibilidade do Sistema (Confiabilidade)
+- O sistema deverá estar disponível o tempo inteiro, sem indisponibilidade.
 
-RF01. EXIBIR TELA INICIAL
-a.	O sistema deve permitir que o usuário visualize a página inicial com o menu do dia e os ícones que levam o cliente para a as redes sociais, história e a localização do local.
-
-Unfunctional Requirements: 
-
-RNF1. COMPATIBILIDADE DE NAVEGADORES (INTEROPERABILIDADE) 
-a.	O sistema deve permitir a utilização nos navegadores Chrome e Opera.
-
-RNF2. DISPONIBILIDADE DO SISTEMA (CONFIABILIDADE) 
-a.	O sistema deverá estar disponível o tempo inteiro, sem indisponibilidade.
-
-RNF3. LINGUAGEM UTILIZADA
-a.	O sistema deverá ser programado em Javascript, HTML e CSS.
-
+### RNF3: Linguagem Utilizada
+- O sistema deverá ser programado em JavaScript, HTML e CSS.
