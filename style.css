@@ -72,7 +72,7 @@ body{
 .cardapio{
     margin:10%;
     margin-right:15%;
-    margin-right:15%;
+    /* margin-right:15%; */
     height: 500px;
     display: flex;
     flex-direction: row;
@@ -81,18 +81,21 @@ body{
 
 
 .buffet{
+    margin-inline: 12%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: rgb(139, 139, 139);
-    justify-content: space-around;
     margin-bottom: 100px;
-    overflow: scroll;
-    
+    overflow: hidden;
+
+    width: 1200px;
+    height: 600px;
 }
-.buffet div{
+
+/* .buffet div{
     margin: 35px;
-}
-
-
+} */
 
 .rodape{
     display: flex;
@@ -112,4 +115,38 @@ body{
     width: 500px;
     height: 300px;
     background-color: grey;
+}
+
+/* carrosel de imagens de buffet */
+.slide {
+    display: flex;
+    align-items: center;
+}
+
+.slide img{
+    object-fit: cover;
+    width: 1200px;
+    height: 600px;
+}
+
+.slide img, .slide {
+    transition: all 0.3s;
+}
+
+.buffet label {
+    opacity: 0;
+    display: none;
+    pointer-events: none;
+}
+
+.turn1{
+    margin-left: 200%;
+}
+
+.turn2{
+    margin-left: 0;
+}
+
+.turn3{
+    margin-left: -200%
 }
