@@ -64,11 +64,6 @@ body{
 }
 
 
-.foto{
-    flex: 150%;
-    background-color: rgb(184, 184, 184);
-}
-
 .cardapio{
     margin:10%;
     margin-right:15%;
@@ -112,10 +107,9 @@ body{
 
 .maps{
     margin: 50px;
-    width: 500px;
-    height: 300px;
-    background-color: grey;
+    width: 510px;
 }
+
 
 /* carrosel de imagens de buffet */
 .slide {
