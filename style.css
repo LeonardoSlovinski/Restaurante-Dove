@@ -64,17 +64,6 @@ body{
 }
 
 
-.cardapio{
-    margin:10%;
-    margin-right:15%;
-    /* margin-right:15%; */
-    height: 500px;
-    display: flex;
-    flex-direction: row;
-    background-color:#FFACAC;
-}
-
-
 .buffet{
     margin-inline: 12%;
     display: flex;
@@ -87,28 +76,58 @@ body{
     width: 1200px;
     height: 600px;
 }
-
-/* .buffet div{
-    margin: 35px;
-} */
-
+.Cardapio{
+    display: flex;
+    float: top;
+    margin-left: 225px;
+    margin-bottom: 200px;
+}
 .rodape{
     display: flex;
-    flex-direction: column;
     background-image: linear-gradient(#ED0B00, #7a0600);
 }
 
-.endereço{
-    margin-left: 50px;
+.centralizar{
+    display: flex;
+    margin-bottom: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 50px;
-    color: white;
-    font-size: 22px;
 }
 
 .maps{
-    margin: 50px;
-    width: 510px;
+    width: 20%;
+    border: 2px solid blue;
 }
+
+.info{
+    display:flex;
+   width: 60%;
+   height: 440px;
+   border: 2px solid green;
+}
+
+.endereço{
+    color: white;
+    font-size: 25px;
+    align-items:flex-start;
+    align-content: end;
+
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space;
+}
+
+.logos div{
+    align-items: flex-start;
+}
+
+
+
+
 
 
 /* carrosel de imagens de buffet */
