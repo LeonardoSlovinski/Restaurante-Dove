@@ -53,6 +53,15 @@ body{
     justify-content:space-around;
 }
 
+.sobre img{
+    border-radius: 20px;
+    border: 5px solid #ED0B00;
+}
+
+#titulosobre{
+    font-size: 45px;
+}
+
 #descritivo{
     h1{text-align: center;}
     margin-right: 20px;
@@ -79,9 +88,17 @@ body{
 .Cardapio{
     display: flex;
     float: top;
-    margin-left: 225px;
-    margin-bottom: 200px;
+    width: 100%;
+    margin-bottom: 120px;
 }
+
+.Cardapio img{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
 .rodape{
     display: flex;
     background-image: linear-gradient(#ED0B00, #7a0600);
@@ -96,23 +113,25 @@ body{
 }
 
 .maps{
-    width: 20%;
-    border: 2px solid blue;
+    width: 50%;
+}
+
+.maps img{
+    border-radius: 20px;
+    margin-right: 10%;
 }
 
 .info{
     display:flex;
-   width: 60%;
+   width: 50%;
    height: 440px;
-   border: 2px solid green;
+   flex-direction: column;
 }
 
 .endereço{
     color: white;
-    font-size: 25px;
-    align-items:flex-start;
-    align-content: end;
-
+    font-size: 20px;
+    margin-top: auto;
 }
 
 .logos{
@@ -124,11 +143,6 @@ body{
 .logos div{
     align-items: flex-start;
 }
-
-
-
-
-
 
 /* carrosel de imagens de buffet */
 .slide {
