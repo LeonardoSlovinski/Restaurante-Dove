@@ -4,6 +4,8 @@
 body{
     margin: 0px;
     background-color: #f3f3f3;
+    justify-content: center;
+    align-items: center;
 }
 
 .cabeça{
@@ -85,64 +87,134 @@ body{
     width: 1200px;
     height: 600px;
 }
-.Cardapio{
-    display: flex;
-    float: top;
-    width: 100%;
-    margin-bottom: 120px;
+
+
+.cardapio-container {
+    background-color: #fff;
+    padding: 20px;
+    border: 4px solid #ED0B00;
+    border-radius: 10px;
+    width: 1000px;
+    height: 370px;
+    left: 250px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    bottom: 50px; 
 }
 
-.Cardapio img{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+.cardapio{
+    font-size: 45px;
 }
 
+.cardapio-container:before {
+    top: -25px;
+    left: -25px;
+}
 
-.rodape{
+.cardapio-container:after {
+    bottom: -25px;
+    right: -25px;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 15px 0 5px;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.aviso {
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.rodape {
     display: flex;
+    justify-content: center;
     background-image: linear-gradient(#ED0B00, #7a0600);
+    padding: 20px;
 }
 
-.centralizar{
+.centralizar {
     display: flex;
-    margin-bottom: 60px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 50px;
-}
-
-.maps{
-    width: 50%;
-}
-
-.maps img{
-    border-radius: 20px;
-    margin-right: 10%;
-}
-
-.info{
-    display:flex;
-   width: 50%;
-   height: 440px;
-   flex-direction: column;
-}
-
-.endereço{
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    margin: 50px 10% 60px;
     color: white;
-    font-size: 20px;
+}
+
+.maps {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.maps img {
+    border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    gap: 50px;
+    font-size: 50px;
+    font-weight: bold
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.logos p, .logos div {
+    font-size: 22px; /* Aumenta o tamanho do texto */
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.logos a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px; /* Aumenta o tamanho do texto do link */
+}
+
+.logos a:hover {
+    color: #ffdfba;
+}
+
+.logos i {
+    font-size: 22px; /* Aumenta o tamanho do ícone */
+    margin-right: 5px; /* Adiciona espaçamento entre o ícone e o texto */
+}
+
+.horario {
+    display: center;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.endereço {
+    font-size: 22px;
+    font-weight: bold;
     margin-top: auto;
 }
 
-.logos{
-    display: flex;
-    flex-direction: column;
-    justify-content: space;
-}
-
-.logos div{
-    align-items: flex-start;
-}
 
 /* carrosel de imagens de buffet */
 .slide {
