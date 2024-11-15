@@ -249,3 +249,7 @@ p {
 .turn3{
     margin-left: -200%
 }
+
+.wpp{
+    cursor: pointer;
+}
